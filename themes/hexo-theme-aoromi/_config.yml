@@ -8,7 +8,7 @@ aomori_widgets:
   - archive
 
 # aomori_customized settings
-aomori_logo: /images/code.png
+aomori_logo: 
 aomori_logo_typed_animated: true
 aomori_menu:
   Home: /
