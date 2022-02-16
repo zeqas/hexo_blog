@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://sus4myself-blog.netlify.app/
+url: https://sus4myself-blog.netlify.app
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,33 +103,3 @@ theme: hexo-theme-aomori
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-# aomori_customized settings
-aomori_logo: 
-aomori_logo_typed_animated: true
-aomori_menu:
-  Home: /
-  About: /about
-  Archives: /archives
-aomori_widgets:
-  - toc # Article navigation
-  - category  # Article classification
-  - tag # Article tags
-  - recent_posts  # latest articles
-  - archive # Article Archive
-aomori_copyright: false
-aomori_social:
-  -
-    icon: github # Boxicons name
-    type: logo # Boxicons type
-    url: https://github.com/zeqas
-  -
-    icon: linkedin-square
-    type: logo
-    url: https://www.linkedin.com/in/casper-shiu-564a60101/
-  -
-    icon: medium
-    type: logo
-    url: https://9c7a8956.medium.com/
-aomori_google_analytics: 'UA-XXXXXXXXX-X'
-aomori_favicon: 📓
