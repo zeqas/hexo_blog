@@ -3,7 +3,7 @@
 
 body {
     background-color: var(--color-bg);
-    font: 14px/1 PingFangSC,'Microsoft Yahei', Microsoft Sans Serif, sans-serif;
+    font: 19px/1 PingFangSC,'Microsoft JhengHei', Microsoft Sans Serif, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -94,7 +94,7 @@ img:not([src]):not([srcset]) {
         }
 
         &-page-title {
-            font-size: 14px;
+            font-size: 19px;
             font-weight: 300;
             margin-left: 10px;
             user-select: none;
@@ -121,7 +121,7 @@ img:not([src]):not([srcset]) {
             a {
                 margin: 0 20px 0 0;
                 color: var(--color-type);
-                font-size: 14px;
+                font-size: 19px;
                 letter-spacing: 0;
             }
 
@@ -146,7 +146,7 @@ img:not([src]):not([srcset]) {
             a:hover::after,
             a:hover::before {
                 backface-visibility: hidden;
-                border-color: var(--color-type);
+                border-color: rgb(65, 66, 63);
                 transition: width 350ms ease-in-out;
                 width: 80%;
             }
@@ -338,7 +338,7 @@ img:not([src]):not([srcset]) {
 
                 h1 {
                     margin: 0 0 5px;
-                    font-size: 14px;
+                    font-size: 32px;
                     font-weight: 400;
                 }
 
@@ -376,7 +376,7 @@ img:not([src]):not([srcset]) {
             .widget-title {
                 color: var(--color-white);
                 font-family: 'Oswald', sans-serif;
-                font-size: 16px;
+                font-size: 19px;
                 font-weight: 300;
                 text-transform: uppercase;
             }
@@ -407,7 +407,7 @@ img:not([src]):not([srcset]) {
             li::before {
                 background: var(--color-main);
                 content: '';
-                height: 14px;
+                height: 19px;
                 left: 0;
                 position: absolute;
                 top: 4px;
@@ -899,7 +899,7 @@ img:not([src]):not([srcset]) {
 
             h3 {
                 color: var(--color-black);
-                font-size: 16px;
+                font-size: 22px;
                 font-weight: 300;
                 margin-bottom: 15px;
             }
@@ -949,7 +949,7 @@ img:not([src]):not([srcset]) {
 
         a {
             color: var(--color-white);
-            font-size: 14px;
+            font-size: 19px;
 
             &:hover {
                 color: var(--color-main);
@@ -960,7 +960,7 @@ img:not([src]):not([srcset]) {
     .archive-article {
         h1 {
             color: var(--color-type);
-            font-size: 14px;
+            font-size: 32px;
             font-weight: 400;
             line-height: 22px;
             margin: 0;
@@ -1009,7 +1009,7 @@ img:not([src]):not([srcset]) {
 }
 
 .pagination {
-    font-size: 14px;
+    font-size: 19px;
     justify-content: center;
     padding: 30px 0 0;
 
