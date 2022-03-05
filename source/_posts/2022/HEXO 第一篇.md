@@ -42,9 +42,10 @@ $ nvm install 12.13.0
 
 
 ![uglify1](https://i.imgur.com/tWEjwZC.jpg)
-1. 看起來非常亂，是因為 [AOMORI](https://github.com/lh1me/hexo-theme-aomori) 主題本身有使用 Gulp 作為打包工具，將 CSS 和 JS 的部分 minify 與 uglify
 
-2. 會優先以 AOMORI 內的 `custom.css` 而不是 `style.css` 作為樣板設定
+看起來非常亂，是因為 [AOMORI](https://github.com/lh1me/hexo-theme-aomori) 主題本身有使用 Gulp 作為打包工具，將 CSS 和 JS 的部分 minify 與 uglify
+
+其實花蠻多時間在調整 CSS ，也有一些可以[反向轉譯的網站](https://www.unminified.com/)可以使用，不過一直切畫面也是蠻煩躁的，最後還是用搜尋功能來直接修改。
 
 ---
 
@@ -52,8 +53,10 @@ $ nvm install 12.13.0
 
 感謝 Shelly 的文章，[可以讓我無痛入坑](https://icaughtacode-hexo-blog.netlify.app/2021/12/01/hexo%20%E7%84%A1%E7%97%9B%E5%85%A5%E5%9D%91%E5%9B%89/)，並且大力推薦 [Kyo 的心得](https://blog.kyomind.tw/my-markdown-writing-flow/)給同樣想使用 Notion 打草稿的朋友~
 
+目前還是看得出來有很多需要修改的地方。Webpack 和 Gulp 的使用方法與心得也值得多加探討。
+不過跟 Medium 相比，如果要發 LeetCode 的題目解析或是學習心得，Hexo 會更加易讀。
 
-### 參考文章
+## 參考文章
 
 1. [Hexo 無痛入坑囉](https://icaughtacode-hexo-blog.netlify.app/2021/12/01/hexo%20%E7%84%A1%E7%97%9B%E5%85%A5%E5%9D%91%E5%9B%89/) by [Sherry](https://icaughtacode-hexo-blog.netlify.app/about/)
 2. [Notion + VS Code：我的 Hexo Markdown 寫作工作流](https://blog.kyomind.tw/my-markdown-writing-flow/) by [Kyo](https://blog.kyomind.tw/)
