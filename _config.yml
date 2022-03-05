@@ -109,7 +109,6 @@ aomori_logo:
 aomori_logo_typed_animated: true
 aomori_menu:
   Home: /
-  About: /about
   Archives: /archives
 aomori_widgets:
   - toc # Article navigation
