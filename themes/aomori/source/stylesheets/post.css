@@ -3,6 +3,7 @@
 	line-height: 1.8;
 	color: var(--color-post-main);
 	word-wrap: break-word;
+	margin: auto;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%
