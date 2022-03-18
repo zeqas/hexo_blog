@@ -59,7 +59,7 @@ tags: [JavaScript, Understanding the Weird Parts, coercion, JSON, Object Literal
         profile[name][firstName] = 'Casper'
         ```
         
-        因為運算子的相依性，`[profile.name](http://profile.name)` 會被認定為 `undefined` 。所以需要先建立一個 `profile.name = {}` 。
+        因為運算子的相依性，會被認定為 `undefined` 。所以需要先建立一個 `profile.name = {}` 。
         
         ```jsx
         const profile = {}
