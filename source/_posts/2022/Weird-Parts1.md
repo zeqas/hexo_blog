@@ -27,7 +27,6 @@ tags: [JavaScript, Understanding the Weird Parts, coercion, JSON, Object Literal
     同樣地， 1 < 2 會被轉成 `true`，
     `true < 3` 會讓 `true` 又轉成 `1`，第二個答案也會是 `true`
 
-</hr>
 
 2. ### 如果有兩個 library 或 framework 設定的全域物件名稱相同
     會以最後呼叫的檔案中的變數為主。
@@ -59,7 +58,8 @@ tags: [JavaScript, Understanding the Weird Parts, coercion, JSON, Object Literal
         profile[name][firstName] = 'Casper'
         ```
         
-        因為運算子的相依性，會被認定為 `undefined` 。所以需要先建立一個 `profile.name = {}` 。
+        因為運算子的相依性，會被認定為 `undefined` 
+        所以需要先建立一個 `profile.name = {}` 
         
         ```jsx
         const profile = {}
